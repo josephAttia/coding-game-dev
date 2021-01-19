@@ -5,6 +5,15 @@
   <a href="https://github.com/josephAttia/coding-game-dev">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   
   <img src="login.png" alt="Logo" width="625" height="286">
   <img src="signup.png" alt="Logo" width="625" height="286">
