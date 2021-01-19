@@ -1,3 +1,5 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
 
 <!-- PROJECT LOGO -->
 <br />
@@ -15,6 +17,7 @@
   <br>
   <br>
   
+  <h1 align="center" style="font-family: 'Potta One', cursive;">Login</h1>
   <img src="login.png" alt="Logo" width="625" height="286">
   <img src="signup.png" alt="Logo" width="625" height="286">
 
