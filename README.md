@@ -14,19 +14,19 @@
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Coding Game Dev</h3>
 
   <p align="center">
-    project_description
+    \Have you ever wanted to code a game? Ok....maybe you have but how many REAL tutorials are there? Well Coding Game Dev has interactive tutorials that teach you everything so you could go from zero to HERO in game dev! 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/josephAttia/coding-game-dev"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/josephAttia/coding-game-dev">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/josephAttia/coding-game-dev/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/josephAttia/coding-game-devissues">Request Feature</a>
   </p>
 </p>
 
@@ -72,9 +72,10 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [](Flask)
+* [](HTML)
+* [](CSS)
+* [](Firebase)
 
 
 
@@ -85,22 +86,21 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+* python
+  ```python
+  pip install -r requirements.txt
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/josephAttia/coding-game-dev.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+2. Install Python Libraries
+   ```python
+    pip install -r requirements.txt
+  ```
 
 
 
