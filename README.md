@@ -7,16 +7,6 @@
   <a href="https://github.com/josephAttia/coding-game-dev">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
 
   <h3 align="center">Coding Game Dev</h3>
 
