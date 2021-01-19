@@ -17,15 +17,6 @@
   <br>
   <br>
   
-  <h1 align="center" >Login</h1>
-  <p align="center">
-    <img src="login.png" alt="Logo" width="625" height="286">
-  </p>
-  <h1 align="center">Signup</h1>
-  <p align="center">
-  <img src="signup.png" alt="Logo" width="625" height="286">
-  </p>
-  
 
   <h3 align="center">Coding Game Dev</h3>
 
@@ -42,6 +33,16 @@
     <a href="https://github.com/josephAttia/coding-game-devissues">Request Feature</a>
   </p>
 </p>
+
+  <h1 align="center" >Login</h1>
+  <p align="center">
+    <img src="login.png" alt="Logo" width="625" height="286">
+  </p>
+  <h1 align="center">Signup</h1>
+  <p align="center">
+  <img src="signup.png" alt="Logo" width="625" height="286">
+  </p>
+  
 
 
 
