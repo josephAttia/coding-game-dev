@@ -19,8 +19,11 @@
   
   <h1 align="center" >Login</h1>
   <p align="center">
-<img src="login.png" alt="Logo" width="625" height="286">
-  <img src="signup.png" alt="Logo" width="625" height="286"></p>
+    <img src="login.png" alt="Logo" width="625" height="286">
+  <h1 align="center" >Signup</h1>
+    <img src="signup.png" alt="Logo" width="625" height="286">
+
+</p>
   
 
   <h3 align="center">Coding Game Dev</h3>
