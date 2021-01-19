@@ -37,8 +37,8 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <details open="open">
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
