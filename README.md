@@ -1,11 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -13,6 +5,9 @@
   <a href="https://github.com/josephAttia/coding-game-dev">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
+  
+  <img src="login.png" alt="Logo" width="625" height="286">
+  <img src="signup.png" alt="Logo" width="625" height="286">
 
   <h3 align="center">Coding Game Dev</h3>
 
