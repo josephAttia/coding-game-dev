@@ -1,0 +1,49 @@
+<html>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+<head>
+    {% if title%}
+     <title>{{title}} - Blog</title>
+    {% else %}
+    <title>Blog</title>
+    {% endif %}
+</head>
+<body>
+
+    <span>CodingCOVID</span>
+    <button type="button" onclick="window.location = '/login';"> Login </button>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>id/email:</td>
+                    <td> <input type="text" name="username" size="20"></td>
+                </tr>
+                <tr>
+                    <td>password:</td>
+                    <td> <input type="password" name="password" size="20"></td>
+                </tr>
+                <input type="submit" value="Login" style="appearance: push-button;
+                    user-select: none;
+                    white-space: pre;
+                    align-items: flex-start;
+                    text-align: center;
+                    cursor: default;
+                    color: -internal-light-dark(black, white);
+                    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+                    box-sizing: border-box;
+                    padding: 1px 6px;
+                    border-width: 2px;
+                    border-style: outset;
+                    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+                    border-image: initial;">
+            </tbody>
+        </table>
+    </div>
+    
+    
+</body>
+
+</html>

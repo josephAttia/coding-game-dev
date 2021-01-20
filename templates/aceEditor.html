@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACE in Action</title>
+<style type="text/css" media="screen">
+    
+</style>
+</head>
+<body>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/aceEditor.css') }}">
+<!-- <div id="editor" class="aceCss">function foo(items) {
+    var x = "All this is syntax highlighted";
+    return x;
+}</div>
+<div id="content">
+     
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" integrity="sha512-GZ1RIgZaSc8rnco/8CXfRdCpDxRCphenIiZ2ztLy3XQfCbQUSCuk8IudvNHxkRA3oUg6q0qejgN/qqyG1duv5Q==" crossorigin="anonymous"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.session.setMode("ace/mode/javascript");
+
+    function checkCode(){
+        var code = editor.getValue();
+        document.getElementById("content").innerHTML = code;
+        console.log(eval(code));
+        
+    }
+</script>
+
+
+<div class="wrapper">
+    <a href="#" onclick="checkCode()"><span>Run!</span></a>
+  </div>
+ -->
+
+</body>
+</html>
+
+<html>
+  <head>
+    <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/aceEditor.css') }}">
+    
+  </head>
+  <script>
+    function compile() {
+    var html = document.getElementById("html");
+    var css = document.getElementById("css");
+    var js = document.getElementById("js");
+    var code = document.getElementById("code").contentWindow.document;
+  
+    document.body.onkeyup = function() {
+      code.open();
+      code.writeln(
+        html.value +
+          "<style>" + css.value + "</style>" + "<script>" + js.value + "</scr"+"ipt>"
+      );
+      code.close();
+    };
+  }
+  </script>
+  <body>
+    <textarea id="html" placeholder="HTML"></textarea>
+    <textarea id="css" placeholder="CSS"></textarea>
+    <textarea id="js" placeholder="JavaScript"></textarea>
+    <iframe id="code"></iframe>
+    <button onclick="compile();">Run!</button>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/app.js') }}">
+  </body>
+</html>

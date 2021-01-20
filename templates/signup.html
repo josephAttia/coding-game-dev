@@ -1,0 +1,28 @@
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/signUp.css') }}">
+<div class="materialContainer">
+    <form method="post">
+        <div class="box">
+ 
+            <div class="title">SIGNUP</div>
+      
+            <div class="input">
+               <input type="text" name="emailS" id="name" placeholder="Email">
+               <span class="spin"></span>
+            </div>
+      
+            <div class="input">
+               <input type="password" name="passwordS" id="pass" placeholder="Password">
+               <span class="spin"></span>
+            </div>
+      
+            <div class="button login">
+               <button><span>GO</span>
+            </div>
+
+            <div class="button">
+                <span onclick="window.location='/login';">Login?</span>
+             </div>
+     
+         </div>
+        </form>
+      </div>
