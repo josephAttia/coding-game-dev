@@ -26,11 +26,11 @@
 
   <h1 align="center" >Login</h1>
   <p align="center">
-    <img src="login.png" alt="Logo" width="625" height="286">
+    <img src="login.png" alt="Logo" width="425" height="194">
   </p>
   <h1 align="center">Signup</h1>
   <p align="center">
-  <img src="signup.png" alt="Logo" width="625" height="286">
+  <img src="signup.png" alt="Logo" width="425" height="194">
   </p>
   
 
