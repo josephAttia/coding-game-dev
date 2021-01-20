@@ -24,18 +24,7 @@
   </p>
 </p>
 
-  <h1 align="center" >Login</h1>
-  <p align="center">
-    <img src="login.png" alt="Logo" width="425" height="194">
-  </p>
-  <h1 align="center">Signup</h1>
-  <p align="center">
-  <img src="signup.png" alt="Logo" width="425" height="194">
-  </p>
-  
-
-
-
+ 
 <!-- TABLE OF CONTENTS -->
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <details open="open">
@@ -81,6 +70,16 @@ Have you ever wanted to code a game? Ok....maybe you have but how many REAL tuto
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
+
+ <h1 align="center" >Login / http://127.0.0.1:5000/login</h1>
+  <p align="center">
+    <img src="login.png" alt="Logo" width="425" height="194">
+  </p>
+  <h1 align="center">Signup / http://127.0.0.1:5000/signup</h1>
+  <p align="center">
+  <img src="signup.png" alt="Logo" width="425" height="194">
+  </p>
+  
 
 ### Prerequisites
 
