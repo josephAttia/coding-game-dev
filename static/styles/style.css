@@ -1,0 +1,25 @@
+span{
+    font-size: 200%; 
+    font-family: 'Oswald', sans-serif;
+}
+
+div{
+    float:right;  
+    margin:0px; 
+    border: 1px solid lightgray;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
